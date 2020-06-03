@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1591212443517,
+  "timestamp": 1591213354798,
   "index": "https://jperere.github.io/FoodInventory/index.html",
   "assetGroups": [
     {
@@ -50,7 +50,7 @@
     "https://jperere.github.io/FoodInventory/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://jperere.github.io/FoodInventory/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://jperere.github.io/FoodInventory/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://jperere.github.io/FoodInventory/index.html": "04704574c5430b2a3ce0b93660a650d7388de4e6",
+    "https://jperere.github.io/FoodInventory/index.html": "7f565d5681ea396c4b7015f986262680f856ce7f",
     "https://jperere.github.io/FoodInventory/main-es2015.4491f3d3103795b31445.js": "7373499a9ac31c17a52facc6f95ac858dc53ebcf",
     "https://jperere.github.io/FoodInventory/main-es5.4491f3d3103795b31445.js": "accfbf986ab55382e7d4d5a6f2cc23526cfd0070",
     "https://jperere.github.io/FoodInventory/manifest.webmanifest": "859c7c3de1d3d07a2b70268244500d983e5e5582",
