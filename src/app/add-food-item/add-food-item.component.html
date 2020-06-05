@@ -1,0 +1,23 @@
+<h2>{{screenType}} Item</h2>
+  <form (ngSubmit)="save()" [formGroup]="newItemForm">
+    <div class="form-group">
+      <label for="newItemName">Food Name</label>
+      <input type="text" class="form-control" id="newItemName" aria-describedby="newItemNameHelp" 
+        placeholder="Enter Food Item" formControlName="name" [ngClass]="{'is-invalid': nameMessage}" />
+        <div class="invalid-feedback" >
+          {{nameMessage}}
+        </div>
+        <small id="newItemNameHelp" class="form-text text-muted">Add name of your food item</small>
+    </div>
+    <div class="form-group">
+      <label for="newItemExpiration">Approximate Expiration Date</label>
+      <input type="date" class="form-control" id="newItemExpiration" aria-describedby="newItemExpirationHelp" 
+        placeholder="Enter Food Expiration" formControlName="expirationDate" [ngClass]="{'is-invalid': expirationDateMessage}">
+        <div class="invalid-feedback">
+          {{expirationDateMessage}}
+        </div>
+      <small id="newItemExpirationHelp" class="form-text text-muted">Expiration date of the item</small>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <button type="button" class="btn btn-danger ml-1" [routerLink]="['/grid']">Cancel</button>
+  </form>
