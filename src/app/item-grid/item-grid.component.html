@@ -4,12 +4,15 @@
     <p>No items yet :(</p>
 </div>
 <button class="btn" *ngIf="deletedItem" (click)="undoDelete()">Undo Delete</button>
-<label>Sort:</label><br/>
+
 <div class="btn-group mb-3" role="group" aria-label="shortDate">
-    <button type="button" class="btn btn-secondary" (click)="setSort('name')" [class.active]="sort == 'name'">Name</button>
+  <label>Sort:</label>
+   <button type="button" class="btn btn-secondary ml-3" (click)="setSort('name')" [class.active]="sort == 'name'">Name</button>
     <button type="button" class="btn btn-secondary" (click)="setSort('create')" [class.active]="sort == 'create'">Added Date</button>
     <button type="button" class="btn btn-secondary" (click)="setSort('expiration')" [class.active]="sort == 'expiration'">Expiration Date</button>
+    <button type="button" class="ml-5" [routerLink]="['/newitem']"><i class="fa fa-plus" aria-hidden="true"></i>Add Food Item</button>
   </div>
+  
 <div *ngFor="let foodItem of foodItems;" class="row card-columns">
     <div class="col-sm-6">
     <div class="card">
