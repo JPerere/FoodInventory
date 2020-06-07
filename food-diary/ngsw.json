@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1591214076037,
+  "timestamp": 1591564264395,
   "index": "https://jperere.github.io/FoodInventory/index.html",
   "assetGroups": [
     {
@@ -10,15 +10,15 @@
       "urls": [
         "https://jperere.github.io/FoodInventory/favicon.ico",
         "https://jperere.github.io/FoodInventory/index.html",
-        "https://jperere.github.io/FoodInventory/main-es2015.4491f3d3103795b31445.js",
-        "https://jperere.github.io/FoodInventory/main-es5.4491f3d3103795b31445.js",
+        "https://jperere.github.io/FoodInventory/main-es2015.88fd133454ecb5e9e4f5.js",
+        "https://jperere.github.io/FoodInventory/main-es5.88fd133454ecb5e9e4f5.js",
         "https://jperere.github.io/FoodInventory/manifest.webmanifest",
         "https://jperere.github.io/FoodInventory/polyfills-es2015.5b10b8fd823b6392f1fd.js",
         "https://jperere.github.io/FoodInventory/polyfills-es5.8e50a9832860f7cf804a.js",
         "https://jperere.github.io/FoodInventory/runtime-es2015.c5fa8325f89fc516600b.js",
         "https://jperere.github.io/FoodInventory/runtime-es5.c5fa8325f89fc516600b.js",
         "https://jperere.github.io/FoodInventory/scripts.233bae0aa01741057ecf.js",
-        "https://jperere.github.io/FoodInventory/styles.ca503cce0027ec8b0858.css"
+        "https://jperere.github.io/FoodInventory/styles.30800a621831df73a79a.css"
       ],
       "patterns": []
     },
@@ -34,7 +34,12 @@
         "https://jperere.github.io/FoodInventory/assets/icons/icon-384x384.png",
         "https://jperere.github.io/FoodInventory/assets/icons/icon-512x512.png",
         "https://jperere.github.io/FoodInventory/assets/icons/icon-72x72.png",
-        "https://jperere.github.io/FoodInventory/assets/icons/icon-96x96.png"
+        "https://jperere.github.io/FoodInventory/assets/icons/icon-96x96.png",
+        "https://jperere.github.io/FoodInventory/fontawesome-webfont.674f50d287a8c48dc19b.eot",
+        "https://jperere.github.io/FoodInventory/fontawesome-webfont.912ec66d7572ff821749.svg",
+        "https://jperere.github.io/FoodInventory/fontawesome-webfont.af7ae505a9eed503f8b8.woff2",
+        "https://jperere.github.io/FoodInventory/fontawesome-webfont.b06871f281fee6b241d6.ttf",
+        "https://jperere.github.io/FoodInventory/fontawesome-webfont.fee66e712a8a08eef580.woff"
       ],
       "patterns": []
     }
@@ -50,16 +55,21 @@
     "https://jperere.github.io/FoodInventory/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://jperere.github.io/FoodInventory/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://jperere.github.io/FoodInventory/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://jperere.github.io/FoodInventory/index.html": "0198220a37c6a2ff78b1b33e6d04e377b4c922aa",
-    "https://jperere.github.io/FoodInventory/main-es2015.4491f3d3103795b31445.js": "7373499a9ac31c17a52facc6f95ac858dc53ebcf",
-    "https://jperere.github.io/FoodInventory/main-es5.4491f3d3103795b31445.js": "accfbf986ab55382e7d4d5a6f2cc23526cfd0070",
+    "https://jperere.github.io/FoodInventory/fontawesome-webfont.674f50d287a8c48dc19b.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "https://jperere.github.io/FoodInventory/fontawesome-webfont.912ec66d7572ff821749.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "https://jperere.github.io/FoodInventory/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "https://jperere.github.io/FoodInventory/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "https://jperere.github.io/FoodInventory/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "https://jperere.github.io/FoodInventory/index.html": "5a8fc46309d039e844b37bb7a13a1100e12ff323",
+    "https://jperere.github.io/FoodInventory/main-es2015.88fd133454ecb5e9e4f5.js": "ef1855fcc272bf46e4ea7ef9deada59c8249aac8",
+    "https://jperere.github.io/FoodInventory/main-es5.88fd133454ecb5e9e4f5.js": "99ed66e09ac04778d6bfb9bc022818fb2b3ddaab",
     "https://jperere.github.io/FoodInventory/manifest.webmanifest": "859c7c3de1d3d07a2b70268244500d983e5e5582",
     "https://jperere.github.io/FoodInventory/polyfills-es2015.5b10b8fd823b6392f1fd.js": "9abfe15f17820a646e3d51c420908d9f8f7b69b8",
     "https://jperere.github.io/FoodInventory/polyfills-es5.8e50a9832860f7cf804a.js": "29c3227e54cf420fa789aa877c2e4194ffd959c7",
     "https://jperere.github.io/FoodInventory/runtime-es2015.c5fa8325f89fc516600b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "https://jperere.github.io/FoodInventory/runtime-es5.c5fa8325f89fc516600b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "https://jperere.github.io/FoodInventory/scripts.233bae0aa01741057ecf.js": "bcfa4c835bc21dbd944526bcaafb73e683db3240",
-    "https://jperere.github.io/FoodInventory/styles.ca503cce0027ec8b0858.css": "3a6571d29f2693e8d06ae91bd46681ecc02f76e4"
+    "https://jperere.github.io/FoodInventory/styles.30800a621831df73a79a.css": "0d962e275ec2ea4262eb531bde3ca61db1756b05"
   },
   "navigationUrls": [
     {
