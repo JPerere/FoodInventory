@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1591566154493,
+  "timestamp": 1591566421997,
   "index": "https://jperere.github.io/FoodInventory/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "https://jperere.github.io/FoodInventory/favicon.ico",
         "https://jperere.github.io/FoodInventory/index.html",
-        "https://jperere.github.io/FoodInventory/main-es2015.88fd133454ecb5e9e4f5.js",
-        "https://jperere.github.io/FoodInventory/main-es5.88fd133454ecb5e9e4f5.js",
+        "https://jperere.github.io/FoodInventory/main-es2015.6ffc2ce9ecfeb97814f3.js",
+        "https://jperere.github.io/FoodInventory/main-es5.6ffc2ce9ecfeb97814f3.js",
         "https://jperere.github.io/FoodInventory/manifest.webmanifest",
         "https://jperere.github.io/FoodInventory/polyfills-es2015.5b10b8fd823b6392f1fd.js",
         "https://jperere.github.io/FoodInventory/polyfills-es5.8e50a9832860f7cf804a.js",
@@ -60,9 +60,9 @@
     "https://jperere.github.io/FoodInventory/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
     "https://jperere.github.io/FoodInventory/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
     "https://jperere.github.io/FoodInventory/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
-    "https://jperere.github.io/FoodInventory/index.html": "5a8fc46309d039e844b37bb7a13a1100e12ff323",
-    "https://jperere.github.io/FoodInventory/main-es2015.88fd133454ecb5e9e4f5.js": "ef1855fcc272bf46e4ea7ef9deada59c8249aac8",
-    "https://jperere.github.io/FoodInventory/main-es5.88fd133454ecb5e9e4f5.js": "99ed66e09ac04778d6bfb9bc022818fb2b3ddaab",
+    "https://jperere.github.io/FoodInventory/index.html": "8574ff8b02d0e5493bd5b35bb28d51599843674c",
+    "https://jperere.github.io/FoodInventory/main-es2015.6ffc2ce9ecfeb97814f3.js": "f5efeeb738edf0e261434927a25cbdb43aa2726d",
+    "https://jperere.github.io/FoodInventory/main-es5.6ffc2ce9ecfeb97814f3.js": "6ee2c3dbbb0b45c36baa35c2df8714e49cae00f9",
     "https://jperere.github.io/FoodInventory/manifest.webmanifest": "859c7c3de1d3d07a2b70268244500d983e5e5582",
     "https://jperere.github.io/FoodInventory/polyfills-es2015.5b10b8fd823b6392f1fd.js": "9abfe15f17820a646e3d51c420908d9f8f7b69b8",
     "https://jperere.github.io/FoodInventory/polyfills-es5.8e50a9832860f7cf804a.js": "29c3227e54cf420fa789aa877c2e4194ffd959c7",
