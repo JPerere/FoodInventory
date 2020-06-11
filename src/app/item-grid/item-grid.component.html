@@ -10,7 +10,9 @@
    <button type="button" class="btn btn-secondary ml-3" (click)="setSort('name')" [class.active]="sort == 'name'">Name</button>
     <button type="button" class="btn btn-secondary" (click)="setSort('create')" [class.active]="sort == 'create'">Added Date</button>
     <button type="button" class="btn btn-secondary" (click)="setSort('expiration')" [class.active]="sort == 'expiration'">Expiration Date</button>
-    <button type="button" class="ml-5" [routerLink]="['/newitem']"><i class="fa fa-plus" aria-hidden="true"></i>Add Food Item</button>
+     </div>
+  <div class="mb-3">
+    <button type="button" class="btn btn-secondary" [routerLink]="['/newitem']"><i class="fa fa-plus" aria-hidden="true"></i> Add Food Item</button>
   </div>
   
 <div *ngFor="let foodItem of foodItems;" class="row card-columns">

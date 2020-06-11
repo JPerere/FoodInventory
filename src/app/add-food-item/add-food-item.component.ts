@@ -74,16 +74,21 @@ export class AddFoodItemComponent implements OnInit {
   private setInitialDate(date: Date, offset:number) {
     console.log("setInitialDate");
     console.log(date);
-    var today = new Date(date);
-    today.setDate(today.getDate() + offset);
-    var day =  (today.getDate() + 1).toString();
+    var today = date;//new Date(date.getFullYear(), date.getMonth(),date.getDate() + 1);
+    //today.setDate(today.getDate() + offset);
+    console.log("setdate");
+    console.log(today);
+    var day =  (today.getDate()).toString();
     var month = (today.getMonth() + 1).toString();
+    
     if (day.length == 1) {
       day = "0" + day;
     }
     if (month.length == 1) {
       month = "0" + month;
     }
+    console.log(day);
+    console.log(month);
     this.expirationDate.setValue(today.getFullYear() + '-' + month + "-" + day);
   }
 
@@ -103,6 +108,8 @@ export class AddFoodItemComponent implements OnInit {
         let newItem = this.editFoodItem;
         newItem.Name = this.newItemForm.get('name').value;
         newItem.ExpirationDate = this.newItemForm.get('expirationDate').value;
+        console.log("save");
+        console.log(newItem.ExpirationDate);
         //newItem.CreatedDate = new Date();
         this.foodItemService.UpdateFoodItem(newItem);
         this.resetForm();
@@ -112,7 +119,7 @@ export class AddFoodItemComponent implements OnInit {
         console.log("Saved:" + JSON.stringify(this.newItemForm.value));
         let newItem = new FoodItem();
         newItem.Name = this.newItemForm.get('name').value;
-        newItem.ExpirationDate = this.newItemForm.get('expirationDate').value;
+        newItem.ExpirationDate = new Date(this.newItemForm.get('expirationDate').value);
         newItem.CreatedDate = new Date();
         this.foodItemService.SaveFoodItem(newItem);
         this.resetForm();

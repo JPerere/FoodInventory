@@ -15,7 +15,6 @@ export class FoodItemService {
   console.log(foodItemArray);
     let foodItem:FoodItem = null;
     foodItemArray.forEach((element, index) => {
-      console.log(element);
       if(ID == element.ID){
         foodItem = element;
       }
@@ -81,6 +80,22 @@ export class FoodItemService {
   }
 
   private getLocalFoodItems(): FoodItem[] {
-    return JSON.parse(localStorage.getItem("foodItems"));
+    var results =  JSON.parse(localStorage.getItem("foodItems"));
+    console.log("loadingFrom localStorage");
+    console.log(results);
+    let returnArray:FoodItem[] = [];
+    results.forEach(element => {
+      var item = new FoodItem();
+      var savedDate = new Date(element.ExpirationDate);
+      item.ExpirationDate = new Date(savedDate.getFullYear(),savedDate.getMonth(), savedDate.getDate(), savedDate.getHours() + 5);
+      item.AddedDate = element.AddedDate;
+      item.CreatedDate = element.CreatedDate;
+      item.ID = element.ID;
+      item.Name = element.Name;
+      returnArray.push(item);
+    });
+    console.log("parsed date to object");
+    console.log(returnArray);
+    return returnArray;
   }
 }
